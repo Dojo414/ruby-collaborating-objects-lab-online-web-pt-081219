@@ -23,5 +23,7 @@ class Song
     artist_object = Artist.find_or_create_by_name(artist_string)
     artist_object.add_song(self)
   end
+  
+end
     
     
